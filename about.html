@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plants PhotoPlants Photo</title>
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/jquery-2.1.1.min.js"></script>
+  <script>
+    $(function(){
+      $(".headC").click(function(){
+         $(".headB").stop().slideToggle();
+      })
+    })
+  </script>
+</head>
+<body class="nohero">
+  <header>
+    <div class="container">
+      <div class="container-small">
+        <a href="./index.html" class="headA">Plants Photo</a>
+        <button type="button" class="headC">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <nav class="headB">
+        <ul>
+          <li><a href="./index.html">TOP</a></li>
+          <li><a href="./list.html">LIST</a></li>
+          <li><a href="./contents.html">콘텐츠</a></li>
+          <li><a href="./about.html">소개</a></li>
+          <li><a href="./contact.html">문의</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <article class="post">
+    <div class="container">
+      <h1>Plants Photo에 대해서</h1>
+      <p>
+        Plants Photo는 사용자들이 식물 사진을 공유하면서 서로 이야기를 나누고 사진을 공유하며 치유할 수 있는 공간입니다. 이와 관련된 정보 제공, 애플리케이션 개발, 사용자 지원 등을 위해 기업을 설립하고 더 많은 사용자들이 이용하는 것을 목표로 하고 있습니다.
+      </p>
+      <p>
+        최근에는 국외 데이터 센터를 활용해 국내 뿐만 아니라 해외에도 서비스를 제공하고 있습니다.
+      </p>
+    </div>
+  </article>
+  <aside class="history">
+    <div class="container">
+      <div class="photo"></div>
+      <div class="text">
+        <h2>History</h2>
+        <table>
+          <tr>
+            <th>2019년 4월</th>
+            <td>Plants Photo 설립</td>
+          </tr>
+          <tr>
+            <th>2020년 6월</th>
+            <td>온라인 매거진 창간</td>
+          </tr>
+          <tr>
+            <th>2022년 12월</th>
+            <td>해외 기업과의 제휴를 통한 온라인 데이터 공유 서비스 시작</td>
+          </tr>
+          <tr>
+            <th>2023년 1월</th>
+            <td>Plants Photo 서비스 시작</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </aside>
+  <footer>
+    <div class="container">
+      <div class="footA">
+        <h2>Plants Photo</h2>
+        <p>
+          <a href="#">http://abcd.co.kr/</a>
+        </p>
+        <nav class="footD">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+      <nav class="footB">
+        <div>
+          <h3>ABOUT</h3>
+          <ul>
+            <li><a href="#">설립</a></li>
+            <li><a href="#">주소</a></li>
+            <li><a href="#">지도</a></li>
+            <li><a href="#">스태프</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>SUPPORT</h3>
+          <ul>
+            <li><a href="#">다운로드</a></li>
+            <li><a href="#">메뉴얼</a></li>
+            <li><a href="#">자주 묻는 질문</a></li>
+            <li><a href="#">문의</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>CONTENTS</h3>
+          <ul>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">비즈니스</a></li>
+            <li><a href="#">프로필</a></li>
+            <li><a href="#">개발자</a></li>
+            <li><a href="#">블로그</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="footC">
+        <small>
+          &copy; Plants Photo corp. All rights reserved.
+        </small>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
